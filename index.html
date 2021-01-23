@@ -1,15 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style.css">
+    <title>Healthy Kitchen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+
 </head>
-  <body>
-    <header>
+<body>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand fs-md-3" href="#"  style="color: #F36C24;"><img src="/images/logo.png" class="img-fluid logo ms-md-3" alt="logo image"> Healthy Kitchen</a>
       <button class="navbar-toggler" style="margin-right: 15px;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,23 +57,30 @@
     </nav>
   </header>
 
-<section id="banner">
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/images/banner1.jpg" class="d-block w-100" style="height: 53em;" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="/images/banner2.jpg" class="d-block w-100" style="height: 53em;" alt="...">
-      </div>
-      </div>
-   </div>
-  </div>
-
-
+  <section id="banner">
     
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </section>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+           <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="banner" style="background-image: url(/images/banner1.jpg);"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">NUTRITIOUS &<span>DELICIOUS</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s">Fresh produce from the Farmers Market</h3>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#" class="text-decoration-none p-2" style="background-color:#B2D235; width: 8em";>Order Now</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="banner" style="background-image: url(/images/banner2.jpg);"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">Healthy &<span>Tasty</span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">No additives or preservatives</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#" class="text-decoration-none p-2" style="background-color:#B2D235; width: 8em";>Order Now</a></p>
+                    </div>
+                </div>
+             </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
 
