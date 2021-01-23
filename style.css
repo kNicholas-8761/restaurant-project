@@ -8,23 +8,7 @@
 header .carousel-inner .item {
 	height: 100vh;
 }
-.navbar-inverse {
-	background-color: transparent;
-	border-color: transparent;
-}
-.navbar-inverse .navbar-brand {
-	color: #fff;
-	font-size: 40px;
-	padding: 40px 15px;
-	font-weight: 900;
-}
-.nav.navbar-nav.navbar-right {
-	margin: 25px 0;
-}
-.navbar-inverse .navbar-nav>li>a {
-	color: #fff;
-	text-transform: uppercase;
-}
+
 .banner {
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -33,11 +17,11 @@ header .carousel-inner .item {
 	height: 100vh;
 }
 .carousel-caption {
-	padding-bottom: 250px;
+	padding-bottom: 400px;
 	font-family: poppins;
 }
 .carousel-caption h2 {
-	font-size: 70px;
+	font-size: 90px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
@@ -45,7 +29,6 @@ header .carousel-inner .item {
 	color: #EDBB00;
 }
 .carousel-caption a {
-	background: #EDBB00;
 	padding: 15px 35px;
 	display: inline-block;
 	margin-top: 15px;
@@ -63,6 +46,8 @@ header .carousel-inner .item {
 	background-color: #EDBB00;
 	border-color: #EDBB00;
 }
+
+
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
