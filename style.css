@@ -60,7 +60,17 @@ header .carousel-inner .item {
 .hover li a:hover {
 	color: #F36C24 !important;
 }
-
+#location .box {
+	background-image:url(/images/bg-colorful.jpg);
+	background-size: cover;
+	padding-bottom: 5em;
+}
+#location .image {
+	background-image: url(/images/food.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+}
 
 /*responsive css*/
 
