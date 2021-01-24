@@ -1,5 +1,5 @@
 .logo {
-  height: 2em;
+  height: 1.5em;
 }
 .btn {
   width: 20em;
@@ -17,7 +17,7 @@ header .carousel-inner .item {
 	height: 100vh;
 }
 .carousel-caption {
-	padding-bottom: 400px;
+	padding-bottom: 26em !important;
 	font-family: poppins;
 }
 .carousel-caption h2 {
@@ -47,7 +47,12 @@ header .carousel-inner .item {
 	border-color: #EDBB00;
 }
 
-
+.color li a{
+	color: #fff;
+}
+#nav li a {
+	color: white;
+}
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
