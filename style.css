@@ -10,12 +10,27 @@ header .carousel-inner .item {
 }
 
 .banner {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	height: 100vh;
 }
+.overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; */
+  }
 .carousel-caption {
 	padding-bottom: 26em !important;
 	font-family: poppins;
@@ -36,23 +51,17 @@ header .carousel-inner .item {
 	text-transform: uppercase;
 	border-radius: 25px;
 }
-.carousel-control.right {
-	background-image: none;
-}
-.carousel-control.left {
-	background-image: none;
-}
-.carousel-indicators .active {
-	background-color: #EDBB00;
-	border-color: #EDBB00;
-}
-
 .color li a{
 	color: #fff;
 }
 #nav li a {
 	color: white;
 }
+.hover li a:hover {
+	color: #F36C24 !important;
+}
+
+
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
