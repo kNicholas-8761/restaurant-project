@@ -6,17 +6,17 @@
 }
 
 header .carousel-inner .item {
-	height: 100vh;
+  height: 100vh;
 }
 
 .banner {
-	height: 100vh;
-	width: 100vw;
-	position: relative;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  height: 100vh;
+  /* width: 100vw; */
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 .overlay {
 	position: absolute;
@@ -26,80 +26,89 @@ header .carousel-inner .item {
 	left: 0;
 	background: rgba(0, 0, 0, 0.5);
 	color: white;
-	/* display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column; */
+	
   }
 .carousel-caption {
-	padding-bottom: 26em !important;
-	font-family: poppins;
+  padding-bottom: 250px !important;
+  /* padding-bottom: 25em !important; */
 }
 .carousel-caption h2 {
-	font-size: 90px;
-	text-transform: uppercase;
-	font-weight: bold;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 .carousel-caption h2 span {
-	color: #EDBB00;
+  color: #edbb00;
 }
 .carousel-caption a {
-	padding: 15px 35px;
-	display: inline-block;
-	margin-top: 15px;
-	color: #fff;
-	text-transform: uppercase;
-	border-radius: 25px;
+  padding: 15px 35px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 25px;
 }
-.color li a{
-	color: #fff;
+.color li a {
+  color: #fff;
 }
 #nav li a {
-	color: white;
+  color: white;
 }
 .hover li a:hover {
-	color: #F36C24 !important;
+  color: #f36c24 !important;
+}
+.hover li a {
+  margin-right: 20px;
 }
 #location .box {
-	background-image:url(/images/bg-colorful.jpg);
-	background-size: cover;
-	padding-bottom: 5em;
+  background-image: url(/images/bg-colorful.jpg);
+  background-size: cover;
+  padding-bottom: 5em;
+  height: 75%;
 }
-#location .image {
-	background-image: url(/images/food.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
+#location .btn {
+  background-color: #b2d235 !important;
+  width: 11em;
+  font-weight: 900;
+}
+
+#location .container {
+  min-width: 50%;
 }
 
 /*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-	.carousel-caption {
-		padding-bottom: 350px;
-	}
-	.carousel-caption h2 {
-		font-size: 50px;
-	}
+  .carousel-caption {
+    padding-bottom: 350px;
+  }
+  .carousel-caption h2 {
+    font-size: 50px;
+  }
 }
 @media only screen and (max-width: 767px) {
-	.navbar-inverse .navbar-brand {
-		font-size: 30px;
-		padding: 20px 15px;
-	}
-	.navbar-collapse {
-		background: rgba(0, 0, 0, 0.5);
-	}
-	.carousel-caption {
-		padding-bottom: 120px;
-	}
-	.carousel-caption h2 {
-		font-size: 25px;
-	}
-	.carousel-caption h3 {
-		font-size: 18px;
-	}
-	.carousel-caption a {
-		padding: 10px 25px;
-	}
+  .navbar-inverse .navbar-brand {
+    font-size: 30px;
+    padding: 20px 15px;
+  }
+  .navbar-collapse {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .carousel-caption {
+    padding-bottom: 320px !important;
+  }
+  .carousel-caption h2 {
+    font-size: 25px;
+  }
+  .carousel-caption h3 {
+    font-size: 18px;
+  }
+  .carousel-caption a {
+    padding: 10px 25px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #location .box {
+    /* height: 100%; */
+  }
 }
