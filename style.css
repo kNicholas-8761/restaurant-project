@@ -17,6 +17,7 @@ header .carousel-inner .item {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
 }
 .overlay {
 	position: absolute;
@@ -74,6 +75,15 @@ header .carousel-inner .item {
 
 #location .container {
   min-width: 50%;
+}
+
+.bg-main {
+   background: url(/images/juices.jpg);
+   position: relative;
+   background-size: cover;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
 }
 
 /*responsive css*/
