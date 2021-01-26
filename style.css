@@ -61,11 +61,11 @@ header .carousel-inner .item {
 .hover li a {
   margin-right: 20px;
 }
-#location .box {
+ .box {
   background-image: url(/images/bg-colorful.jpg);
   background-size: cover;
   padding-bottom: 5em;
-  height: 75%;
+  height: 100%;
 }
 #location .btn {
   background-color: #b2d235 !important;
@@ -86,7 +86,13 @@ header .carousel-inner .item {
    background-attachment: fixed;
 }
 
+#team .bg-image {
+  background: url(/images/team.jpg);
+  background-size: cover;
+  padding-bottom: 5em;
+  height: 100%;
 /*responsive css*/
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel-caption {
@@ -115,10 +121,5 @@ header .carousel-inner .item {
   }
   .carousel-caption a {
     padding: 10px 25px;
-  }
-}
-@media only screen and (max-width: 767px) {
-  #location .box {
-    /* height: 100%; */
   }
 }
