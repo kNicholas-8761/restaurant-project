@@ -91,8 +91,9 @@ header .carousel-inner .item {
   background-size: cover;
   padding-bottom: 5em;
   height: 100%;
-/*responsive css*/
 }
+
+/*responsive css*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel-caption {
