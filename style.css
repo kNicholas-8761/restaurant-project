@@ -92,6 +92,24 @@ header .carousel-inner .item {
   padding-bottom: 5em;
   height: 100%;
 }
+#social .image img {
+  display: block;
+  width: 100%;
+  height: 450px;
+  
+}
+#social .zoom img {
+  transform: scale(1);
+  transition:  0.5s ease-in-out;
+}
+#social .zoom:hover img {
+  transform: scale(1.2);
+  
+}
+#social figure{
+  overflow: hidden;
+}
+
 
 /*responsive css*/
 
