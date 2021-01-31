@@ -29,6 +29,7 @@ header .carousel-inner .item {
 	color: white;
 	
   }
+
 .carousel-caption {
   padding-bottom: 250px !important;
   /* padding-bottom: 25em !important; */
@@ -110,6 +111,13 @@ header .carousel-inner .item {
   overflow: hidden;
 }
 
+form {
+  width: 40em !important;
+ 
+}
+form input{
+  background-color:#F7F7F7 !important;
+}
 
 /*responsive css*/
 
